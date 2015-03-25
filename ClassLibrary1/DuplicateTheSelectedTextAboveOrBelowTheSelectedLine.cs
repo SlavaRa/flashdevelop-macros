@@ -7,6 +7,13 @@ using ScintillaNet.Lexers;
 /// <summary>
 /// Ctrl + Shift + UP or DOWN
 /// Duplicate the selected text above or below the selected line
+/// 
+/// Usage example:
+/// Put this macros to /FlashDevelop/Macros/
+/// - Press Ctrl+F10 or Alt M M
+/// - Press Add
+/// - Set AutoRun is true
+/// - Set Entries ExecuteScript|Development;$(BaseDir)/Macros/DuplicateTheSelectedTextAboveOrBelowTheSelectedLine.cs
 /// </summary>
 public class DuplicateTheSelectedTextAboveOrBelowTheSelectedLine : IEventHandler
 {
